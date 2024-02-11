@@ -49,6 +49,6 @@ int main() {
 
     // print result
     cout << count;
-    
+    delete[] s;
     return 0;
 }
