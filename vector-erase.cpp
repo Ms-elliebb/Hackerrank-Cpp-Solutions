@@ -13,9 +13,9 @@ int main() {
         v.push_back(a);
     }
     cin>>b;
-   v.erase(v.begin()+b);
+   v.erase(v.begin()+b-1);
    cin>>c>>d;
-   v.erase(v.begin()+(c-1),v.begin()+(d-1));
+   v.erase(v.begin()+c-1,v.begin()+d-1);
    
    cout<<v.size()<<endl;
    
